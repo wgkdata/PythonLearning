@@ -1,10 +1,11 @@
 namelist = []
 leng = len(namelist)
 
+a = ''
 
 def explain():
     for i in namelist:
-        a = print(i)
+        explain = print(i)
 
 
 
@@ -14,5 +15,5 @@ while leng < 25:
     leng = len(namelist)
     print(f"It's done, {name}. Your list has {leng} names and the names {explain()}")
 
-# TODO: Verificar e corrigir para exibição correta dos nomes
+# TODO: Verificar global var
 

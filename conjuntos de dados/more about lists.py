@@ -8,7 +8,7 @@
 string = "STORROR was here and did jumps, Rio has a huge culture."
 
 list1 = string.split(' ')
-
+print(list1)
 '''
 list2 = string.split(',')
 
@@ -26,10 +26,11 @@ for word in list1:
 
 print(f'\'{palavra}\' was here a total of {contagem} times!')
 '''
-
+'''
 string_join = '_'.join(list1)
 
 #print(f'{string} \n{list1} \n{string_join}')
 
 for indice, valor in enumerate(list1):
     print(indice, valor)
+'''
